@@ -1,0 +1,97 @@
+
+Company: CD PROJEKT RED
+----------------------------------------
+
+Accuracy: 0.5860 +/- 0.1144
+Precision: 0.5820 +/- 0.1401
+Recall: 0.6812 +/- 0.1799
+F1: 0.6100 +/- 0.1332
+Validation Loss: 0.4140 +/- 0.1144
+Training Loss: 0.0035 +/- 0.0070
+Model: Random Forest with Technical Indicator Features
+Accuracy: 0.5860 +/- 0.1144
+Precision: 0.5820 +/- 0.1401
+Recall: 0.6812 +/- 0.1799
+F1: 0.6100 +/- 0.1332
+Validation Loss: 0.4140 +/- 0.1144
+Training Loss: 0.0035 +/- 0.0070
+Accuracy: 0.5209 +/- 0.1387
+Precision: 0.5788 +/- 0.1965
+Recall: 0.5645 +/- 0.2630
+F1: 0.5230 +/- 0.1410
+Validation Loss: 0.4791 +/- 0.1387
+Training Loss: 0.0292 +/- 0.0385
+Model: Logistic Classification with Technical Indicator Features
+Accuracy: 0.5209 +/- 0.1387
+Precision: 0.5788 +/- 0.1965
+Recall: 0.5645 +/- 0.2630
+F1: 0.5230 +/- 0.1410
+Validation Loss: 0.4791 +/- 0.1387
+Training Loss: 0.0292 +/- 0.0385
+Accuracy: 0.4536 +/- 0.1045
+Precision: 0.3837 +/- 0.2121
+Recall: 0.8000 +/- 0.4000
+F1: 0.5137 +/- 0.2693
+Validation Loss: 0.5464 +/- 0.1045
+Training Loss: 0.4589 +/- 0.0352
+Model: Logistic Classification with RBF basis with Technical Indicator Features
+Accuracy: 0.4536 +/- 0.1045
+Precision: 0.3837 +/- 0.2121
+Recall: 0.8000 +/- 0.4000
+F1: 0.5137 +/- 0.2693
+Validation Loss: 0.5464 +/- 0.1045
+Training Loss: 0.4589 +/- 0.0352
+Accuracy: 0.4536 +/- 0.1045
+Precision: 0.3837 +/- 0.2121
+Recall: 0.8000 +/- 0.4000
+F1: 0.5137 +/- 0.2693
+Validation Loss: 0.5464 +/- 0.1045
+Training Loss: 0.4589 +/- 0.0352
+Model: Logistic Classification with RBF basis and PCA Features with Technical Indicator Features
+Accuracy: 0.4536 +/- 0.1045
+Precision: 0.3837 +/- 0.2121
+Recall: 0.8000 +/- 0.4000
+F1: 0.5137 +/- 0.2693
+Validation Loss: 0.5464 +/- 0.1045
+Training Loss: 0.4589 +/- 0.0352
+Accuracy: 0.7551 +/- 0.1455
+Precision: 0.7006 +/- 0.1415
+Recall: 0.8966 +/- 0.1267
+F1: 0.7817 +/- 0.1262
+Validation Loss: 0.2449 +/- 0.1455
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.7551 +/- 0.1455
+Precision: 0.7006 +/- 0.1415
+Recall: 0.8966 +/- 0.1267
+F1: 0.7817 +/- 0.1262
+Validation Loss: 0.2449 +/- 0.1455
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network without purged CV
+Accuracy: 0.8747
+Precision: 0.9165
+Recall: 0.8970
+F1 Score: 0.9066
+Validation Loss: 0.1253
+Training Loss: 0.0000
+Model: Neural Network without purged CV with Technical Indicator Features
+Accuracy: 0.9000
+Precision: 0.9195
+Recall: 0.9344
+F1 Score: 0.9269
+Validation Loss: 0.1000
+Training Loss: 0.0000
+Model: LSTM
+Accuracy: 0.6782
+Precision: 0.6782
+Recall: 1.0000
+F1 Score: 0.8082
+Validation Loss: 0.3218
+Training Loss: 0.3797
+Model: LSTM with Technical Indicator Features
+Accuracy: 0.6350
+Precision: 0.6637
+Recall: 0.9364
+F1 Score: 0.7768
+Validation Loss: 0.3650
+Training Loss: 0.3970

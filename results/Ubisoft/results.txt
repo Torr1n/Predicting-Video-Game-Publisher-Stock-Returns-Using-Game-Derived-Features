@@ -1,0 +1,97 @@
+
+Company: Ubisoft
+----------------------------------------
+
+Accuracy: 0.4743 +/- 0.0298
+Precision: 0.4121 +/- 0.1153
+Recall: 0.4523 +/- 0.1724
+F1: 0.4048 +/- 0.1327
+Validation Loss: 0.5257 +/- 0.0298
+Training Loss: 0.0023 +/- 0.0046
+Model: Random Forest with Technical Indicator Features
+Accuracy: 0.4743 +/- 0.0298
+Precision: 0.4121 +/- 0.1153
+Recall: 0.4523 +/- 0.1724
+F1: 0.4048 +/- 0.1327
+Validation Loss: 0.5257 +/- 0.0298
+Training Loss: 0.0023 +/- 0.0046
+Accuracy: 0.5128 +/- 0.0853
+Precision: 0.3869 +/- 0.2150
+Recall: 0.3900 +/- 0.2650
+F1: 0.3821 +/- 0.2268
+Validation Loss: 0.4872 +/- 0.0853
+Training Loss: 0.0164 +/- 0.0117
+Model: Logistic Classification with Technical Indicator Features
+Accuracy: 0.5128 +/- 0.0853
+Precision: 0.3869 +/- 0.2150
+Recall: 0.3900 +/- 0.2650
+F1: 0.3821 +/- 0.2268
+Validation Loss: 0.4872 +/- 0.0853
+Training Loss: 0.0164 +/- 0.0117
+Accuracy: 0.4865 +/- 0.1415
+Precision: 0.2697 +/- 0.2310
+Recall: 0.6000 +/- 0.4899
+F1: 0.3688 +/- 0.3090
+Validation Loss: 0.5135 +/- 0.1415
+Training Loss: 0.5141 +/- 0.0444
+Model: Logistic Classification with RBF basis with Technical Indicator Features
+Accuracy: 0.4865 +/- 0.1415
+Precision: 0.2697 +/- 0.2310
+Recall: 0.6000 +/- 0.4899
+F1: 0.3688 +/- 0.3090
+Validation Loss: 0.5135 +/- 0.1415
+Training Loss: 0.5141 +/- 0.0444
+Accuracy: 0.4865 +/- 0.1415
+Precision: 0.2697 +/- 0.2310
+Recall: 0.6000 +/- 0.4899
+F1: 0.3688 +/- 0.3090
+Validation Loss: 0.5135 +/- 0.1415
+Training Loss: 0.5141 +/- 0.0444
+Model: Logistic Classification with RBF basis and PCA Features with Technical Indicator Features
+Accuracy: 0.4865 +/- 0.1415
+Precision: 0.2697 +/- 0.2310
+Recall: 0.6000 +/- 0.4899
+F1: 0.3688 +/- 0.3090
+Validation Loss: 0.5135 +/- 0.1415
+Training Loss: 0.5141 +/- 0.0444
+Accuracy: 0.7258 +/- 0.1917
+Precision: 0.6966 +/- 0.2653
+Recall: 0.8718 +/- 0.1593
+F1: 0.7383 +/- 0.1756
+Validation Loss: 0.2742 +/- 0.1917
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.7258 +/- 0.1917
+Precision: 0.6966 +/- 0.2653
+Recall: 0.8718 +/- 0.1593
+F1: 0.7383 +/- 0.1756
+Validation Loss: 0.2742 +/- 0.1917
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network without purged CV
+Accuracy: 0.6563
+Precision: 0.4702
+Recall: 0.7659
+F1 Score: 0.5827
+Validation Loss: 0.3437
+Training Loss: 0.0000
+Model: Neural Network without purged CV with Technical Indicator Features
+Accuracy: 0.4895
+Precision: 0.3544
+Recall: 0.7659
+F1 Score: 0.4846
+Validation Loss: 0.5105
+Training Loss: 0.0000
+Model: LSTM
+Accuracy: 0.6867
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+Validation Loss: 0.3133
+Training Loss: 0.4864
+Model: LSTM with Technical Indicator Features
+Accuracy: 0.3812
+Precision: 0.3024
+Recall: 0.7458
+F1 Score: 0.4303
+Validation Loss: 0.6188
+Training Loss: 0.4372

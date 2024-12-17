@@ -1,0 +1,97 @@
+
+Company: Square Enix
+----------------------------------------
+
+Accuracy: 0.3784 +/- 0.0832
+Precision: 0.3308 +/- 0.2116
+Recall: 0.5945 +/- 0.3757
+F1: 0.3951 +/- 0.2193
+Validation Loss: 0.6216 +/- 0.0832
+Training Loss: 0.0000 +/- 0.0000
+Model: Random Forest with Technical Indicator Features
+Accuracy: 0.3784 +/- 0.0832
+Precision: 0.3308 +/- 0.2116
+Recall: 0.5945 +/- 0.3757
+F1: 0.3951 +/- 0.2193
+Validation Loss: 0.6216 +/- 0.0832
+Training Loss: 0.0000 +/- 0.0000
+Accuracy: 0.5229 +/- 0.1590
+Precision: 0.6004 +/- 0.2387
+Recall: 0.8149 +/- 0.2841
+F1: 0.5924 +/- 0.1479
+Validation Loss: 0.4771 +/- 0.1590
+Training Loss: 0.0000 +/- 0.0000
+Model: Logistic Classification with Technical Indicator Features
+Accuracy: 0.5229 +/- 0.1590
+Precision: 0.6004 +/- 0.2387
+Recall: 0.8149 +/- 0.2841
+F1: 0.5924 +/- 0.1479
+Validation Loss: 0.4771 +/- 0.1590
+Training Loss: 0.0000 +/- 0.0000
+Accuracy: 0.4243 +/- 0.1316
+Precision: 0.0556 +/- 0.1112
+Recall: 0.2000 +/- 0.4000
+F1: 0.0870 +/- 0.1741
+Validation Loss: 0.5757 +/- 0.1316
+Training Loss: 0.4857 +/- 0.0550
+Model: Logistic Classification with RBF basis with Technical Indicator Features
+Accuracy: 0.4243 +/- 0.1316
+Precision: 0.0556 +/- 0.1112
+Recall: 0.2000 +/- 0.4000
+F1: 0.0870 +/- 0.1741
+Validation Loss: 0.5757 +/- 0.1316
+Training Loss: 0.4857 +/- 0.0550
+Accuracy: 0.4243 +/- 0.1316
+Precision: 0.0556 +/- 0.1112
+Recall: 0.2000 +/- 0.4000
+F1: 0.0870 +/- 0.1741
+Validation Loss: 0.5757 +/- 0.1316
+Training Loss: 0.4857 +/- 0.0550
+Model: Logistic Classification with RBF basis and PCA Features with Technical Indicator Features
+Accuracy: 0.4243 +/- 0.1316
+Precision: 0.0556 +/- 0.1112
+Recall: 0.2000 +/- 0.4000
+F1: 0.0870 +/- 0.1741
+Validation Loss: 0.5757 +/- 0.1316
+Training Loss: 0.4857 +/- 0.0550
+Accuracy: 0.6772 +/- 0.2288
+Precision: 0.5701 +/- 0.3465
+Recall: 0.6683 +/- 0.3501
+F1: 0.6037 +/- 0.3426
+Validation Loss: 0.3228 +/- 0.2288
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.6772 +/- 0.2288
+Precision: 0.5701 +/- 0.3465
+Recall: 0.6683 +/- 0.3501
+F1: 0.6037 +/- 0.3426
+Validation Loss: 0.3228 +/- 0.2288
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network without purged CV
+Accuracy: 0.6564
+Precision: 0.7250
+Recall: 0.7561
+F1 Score: 0.7402
+Validation Loss: 0.3436
+Training Loss: 0.0000
+Model: Neural Network without purged CV with Technical Indicator Features
+Accuracy: 0.6417
+Precision: 0.7459
+Recall: 0.6773
+F1 Score: 0.7099
+Validation Loss: 0.3583
+Training Loss: 0.0000
+Model: LSTM
+Accuracy: 0.3525
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+Validation Loss: 0.6475
+Training Loss: 0.4483
+Model: LSTM with Technical Indicator Features
+Accuracy: 0.3525
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+Validation Loss: 0.6475
+Training Loss: 0.3050

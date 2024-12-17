@@ -1,0 +1,96 @@
+Company: SEGA
+----------------------------------------
+
+Accuracy: 0.5422 +/- 0.1154
+Precision: 0.5234 +/- 0.1902
+Recall: 0.7001 +/- 0.3362
+F1: 0.5689 +/- 0.2287
+Validation Loss: 0.4578 +/- 0.1154
+Training Loss: 0.0000 +/- 0.0000
+Model: Random Forest with Technical Indicator Features
+Accuracy: 0.5422 +/- 0.1154
+Precision: 0.5234 +/- 0.1902
+Recall: 0.7001 +/- 0.3362
+F1: 0.5689 +/- 0.2287
+Validation Loss: 0.4578 +/- 0.1154
+Training Loss: 0.0000 +/- 0.0000
+Accuracy: 0.5292 +/- 0.1413
+Precision: 0.5309 +/- 0.1610
+Recall: 0.7075 +/- 0.3176
+F1: 0.5737 +/- 0.2016
+Validation Loss: 0.4708 +/- 0.1413
+Training Loss: 0.0273 +/- 0.0349
+Model: Logistic Classification with Technical Indicator Features
+Accuracy: 0.5292 +/- 0.1413
+Precision: 0.5309 +/- 0.1610
+Recall: 0.7075 +/- 0.3176
+F1: 0.5737 +/- 0.2016
+Validation Loss: 0.4708 +/- 0.1413
+Training Loss: 0.0273 +/- 0.0349
+Accuracy: 0.5343 +/- 0.1113
+Precision: 0.5343 +/- 0.1113
+Recall: 1.0000 +/- 0.0000
+F1: 0.6892 +/- 0.0999
+Validation Loss: 0.4657 +/- 0.1113
+Training Loss: 0.4571 +/- 0.0730
+Model: Logistic Classification with RBF basis with Technical Indicator Features
+Accuracy: 0.5343 +/- 0.1113
+Precision: 0.5343 +/- 0.1113
+Recall: 1.0000 +/- 0.0000
+F1: 0.6892 +/- 0.0999
+Validation Loss: 0.4657 +/- 0.1113
+Training Loss: 0.4571 +/- 0.0730
+Accuracy: 0.5343 +/- 0.1113
+Precision: 0.5343 +/- 0.1113
+Recall: 1.0000 +/- 0.0000
+F1: 0.6892 +/- 0.0999
+Validation Loss: 0.4657 +/- 0.1113
+Training Loss: 0.4571 +/- 0.0730
+Model: Logistic Classification with RBF basis and PCA Features with Technical Indicator Features
+Accuracy: 0.5343 +/- 0.1113
+Precision: 0.5343 +/- 0.1113
+Recall: 1.0000 +/- 0.0000
+F1: 0.6892 +/- 0.0999
+Validation Loss: 0.4657 +/- 0.1113
+Training Loss: 0.4571 +/- 0.0730
+Accuracy: 0.7573 +/- 0.1929
+Precision: 0.7528 +/- 0.1601
+Recall: 0.7949 +/- 0.2657
+F1: 0.7541 +/- 0.1924
+Validation Loss: 0.2427 +/- 0.1929
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.7573 +/- 0.1929
+Precision: 0.7528 +/- 0.1601
+Recall: 0.7949 +/- 0.2657
+F1: 0.7541 +/- 0.1924
+Validation Loss: 0.2427 +/- 0.1929
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network without purged CV
+Accuracy: 0.7612
+Precision: 1.0000
+Recall: 0.6451
+F1 Score: 0.7843
+Validation Loss: 0.2388
+Training Loss: 0.0000
+Model: Neural Network without purged CV with Technical Indicator Features
+Accuracy: 0.7612
+Precision: 1.0000
+Recall: 0.6451
+F1 Score: 0.7843
+Validation Loss: 0.2388
+Training Loss: 0.0000
+Model: LSTM
+Accuracy: 0.6728
+Precision: 0.6728
+Recall: 1.0000
+F1 Score: 0.8044
+Validation Loss: 0.3272
+Training Loss: 0.4532
+Model: LSTM with Technical Indicator Features
+Accuracy: 0.6728
+Precision: 0.6728
+Recall: 1.0000
+F1 Score: 0.8044
+Validation Loss: 0.3272
+Training Loss: 0.2822

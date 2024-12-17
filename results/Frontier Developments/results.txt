@@ -1,0 +1,97 @@
+
+Company: Frontier Developments
+----------------------------------------
+
+Accuracy: 0.4545 +/- 0.1026
+Precision: 0.3247 +/- 0.2396
+Recall: 0.3834 +/- 0.3460
+F1: 0.3117 +/- 0.2078
+Validation Loss: 0.5455 +/- 0.1026
+Training Loss: 0.0231 +/- 0.0218
+Model: Random Forest with Technical Indicator Features
+Accuracy: 0.4545 +/- 0.1026
+Precision: 0.3247 +/- 0.2396
+Recall: 0.3834 +/- 0.3460
+F1: 0.3117 +/- 0.2078
+Validation Loss: 0.5455 +/- 0.1026
+Training Loss: 0.0231 +/- 0.0218
+Accuracy: 0.4774 +/- 0.0731
+Precision: 0.4434 +/- 0.1357
+Recall: 0.7963 +/- 0.1709
+F1: 0.5600 +/- 0.1341
+Validation Loss: 0.5226 +/- 0.0731
+Training Loss: 0.0000 +/- 0.0000
+Model: Logistic Classification with Technical Indicator Features
+Accuracy: 0.4774 +/- 0.0731
+Precision: 0.4434 +/- 0.1357
+Recall: 0.7963 +/- 0.1709
+F1: 0.5600 +/- 0.1341
+Validation Loss: 0.5226 +/- 0.0731
+Training Loss: 0.0000 +/- 0.0000
+Accuracy: 0.4568 +/- 0.1499
+Precision: 0.4568 +/- 0.1499
+Recall: 1.0000 +/- 0.0000
+F1: 0.6131 +/- 0.1363
+Validation Loss: 0.5432 +/- 0.1499
+Training Loss: 0.5351 +/- 0.0448
+Model: Logistic Classification with RBF basis with Technical Indicator Features
+Accuracy: 0.4568 +/- 0.1499
+Precision: 0.4568 +/- 0.1499
+Recall: 1.0000 +/- 0.0000
+F1: 0.6131 +/- 0.1363
+Validation Loss: 0.5432 +/- 0.1499
+Training Loss: 0.5351 +/- 0.0448
+Accuracy: 0.4568 +/- 0.1499
+Precision: 0.4568 +/- 0.1499
+Recall: 1.0000 +/- 0.0000
+F1: 0.6131 +/- 0.1363
+Validation Loss: 0.5432 +/- 0.1499
+Training Loss: 0.5351 +/- 0.0448
+Model: Logistic Classification with RBF basis and PCA Features with Technical Indicator Features
+Accuracy: 0.4568 +/- 0.1499
+Precision: 0.4568 +/- 0.1499
+Recall: 1.0000 +/- 0.0000
+F1: 0.6131 +/- 0.1363
+Validation Loss: 0.5432 +/- 0.1499
+Training Loss: 0.5351 +/- 0.0448
+Accuracy: 0.7988 +/- 0.1363
+Precision: 0.7422 +/- 0.1446
+Recall: 0.8435 +/- 0.2000
+F1: 0.7718 +/- 0.1345
+Validation Loss: 0.2012 +/- 0.1363
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.7988 +/- 0.1363
+Precision: 0.7422 +/- 0.1446
+Recall: 0.8435 +/- 0.2000
+F1: 0.7718 +/- 0.1345
+Validation Loss: 0.2012 +/- 0.1363
+Training Loss: 0.0000 +/- 0.0000
+Model: Neural Network without purged CV
+Accuracy: 0.6729
+Precision: 0.5381
+Recall: 0.5787
+F1 Score: 0.5577
+Validation Loss: 0.3271
+Training Loss: 0.0000
+Model: Neural Network without purged CV with Technical Indicator Features
+Accuracy: 0.8793
+Precision: 0.8603
+Recall: 0.7894
+F1 Score: 0.8233
+Validation Loss: 0.1207
+Training Loss: 0.0000
+Model: LSTM
+Accuracy: 0.6437
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+Validation Loss: 0.3563
+Training Loss: 0.4824
+Model: LSTM with Technical Indicator Features
+Accuracy: 0.3563
+Precision: 0.3563
+Recall: 1.0000
+F1 Score: 0.5254
+Validation Loss: 0.6437
+Training Loss: 0.5176

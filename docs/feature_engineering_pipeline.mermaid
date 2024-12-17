@@ -1,0 +1,113 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#fff',
+    'primaryTextColor': '#333',
+    'primaryBorderColor': '#1f77b4',
+    'lineColor': '#1f77b4',
+    'secondaryColor': '#f8f9fa',
+    'tertiaryColor': '#fff'
+  }
+}}%%
+
+flowchart TD
+    subgraph RawData["Raw Data Collection"]
+        direction TB
+        API["Gamalytic API"]
+        subgraph DailyMetrics["Daily Game Metrics"]
+            RC["Review Count"]
+            P["Price"]
+            RS["Review Score"]
+            AP["Active Players"]
+            PT["Average Playtime"]
+            S["Sales"]
+            R["Revenue"]
+            WC["Wishlist Count"]
+            FC["Follower Count"]
+        end
+    end
+
+    subgraph WeeklyAgg["Data Preprocessing"]
+        WA["Weekly Aggregation<br/>(Monday-Sunday)"]
+    end
+
+    subgraph BaseFeatures["Feature Engineering"]
+        direction TB
+        subgraph DirectFeatures["Direct Features"]
+            DF1["Review Count"]
+            DF2["Price"]
+            DF3["Review Score"]
+            DF4["Average Active Players"]
+            DF5["Average Playtime"]
+            DF6["Sales"]
+            DF7["Revenue"]
+        end
+        
+        subgraph DerivedFeatures["Derived Features"]
+            PE["Player Engagement"]
+            SI["Player Sentiment"]
+            MM["Monetization"]
+            LM["Lifecycle & Stability"]
+            VI["Value Generation"]
+        end
+    end
+
+    subgraph PerfAnalysis["Relative Feautres"]
+        direction TB
+        GS["Genre Similarity<br/>Analysis"] --> GZ["Weighted Z-Score<br/>Calculation"]
+        AO["Game Audience Overlap<br/>Analysis"] --> AZ["Weighted Z-Score<br/>Computation"]
+    end
+
+    subgraph PublisherFeatures["Publisher Level Features"]
+        direction LR
+        subgraph Portfolio["Portfolio Concentration"]
+            direction LR
+            GC["Genre<br/>Concentration"]
+            RC2["Revenue<br/>Concentration"]
+        end
+        subgraph RelOnly["Relative Performance Metrics"]
+            OR["Outperformance<br/>Ratios"]
+        end
+        subgraph BaseOnly["Historical Adjusted Aggregation"]
+            ARM["Age-Adjusted<br/>Revenue Metrics"]
+        end
+        subgraph Basic["Revenue-based Aggregation"]
+            RM["Revenue-Weighted<br/>Means"]
+            RSD["Revenue-Weighted<br/>StdDevs"]
+        end
+    end
+
+    subgraph TimeSeries["Lagged Features"]
+        direction TB
+        LAG["Simple<br/>Lags"]
+        MA["Moving<br/>Averages"]
+        EMA["Exponential<br/>Averages"]
+    end
+
+    YF["yfinance API"] --> TI["Market Indicators<br/>(SMAs, EMAs, RSI, ATR)"]
+
+    MERGE["Combined Total Feature Set"]
+
+    API --> DailyMetrics
+    DailyMetrics --> WA
+    WA --> DirectFeatures
+    WA --> DerivedFeatures
+    DerivedFeatures & DirectFeatures --> PerfAnalysis
+    PerfAnalysis --> PublisherFeatures
+    PublisherFeatures --> TimeSeries
+    TimeSeries --> MERGE
+    TI --> MERGE
+
+    classDef default fill:#fff,stroke:#1f77b4,stroke-width:2px,color:#333
+    classDef process fill:#e1f3fd,stroke:#1f77b4,stroke-width:2px,color:#333
+    classDef metrics fill:#fff,stroke:#2ecc71,stroke-width:2px,color:#333
+    classDef features fill:#fff,stroke:#9b59b6,stroke-width:2px,color:#333
+    classDef analysis fill:#fff,stroke:#e74c3c,stroke-width:2px,color:#333
+    classDef market fill:#fff,stroke:#f39c12,stroke-width:2px,color:#333
+    
+    class API,WA,YF process
+    class DailyMetrics,RC,P,RS,AP,PT,S,R,WC,FC metrics
+    class DirectFeatures,DerivedFeatures,PE,SI,MM,LM,VI features
+    class RelativeFeatures,PerfAnalysis,PublisherFeatures,Portfolio,TimeSeries analysis
+    class TI market
+    class MERGE process
