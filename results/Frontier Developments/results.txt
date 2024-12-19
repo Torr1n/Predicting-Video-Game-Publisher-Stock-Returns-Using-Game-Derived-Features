@@ -1,20 +1,21 @@
 
 Company: Frontier Developments
 ----------------------------------------
-
+Model: Random Forest
 Accuracy: 0.4545 +/- 0.1026
 Precision: 0.3247 +/- 0.2396
 Recall: 0.3834 +/- 0.3460
 F1: 0.3117 +/- 0.2078
 Validation Loss: 0.5455 +/- 0.1026
 Training Loss: 0.0231 +/- 0.0218
-Model: Random Forest with Technical Indicator Features
+Model: Random Forest
 Accuracy: 0.4545 +/- 0.1026
 Precision: 0.3247 +/- 0.2396
 Recall: 0.3834 +/- 0.3460
 F1: 0.3117 +/- 0.2078
 Validation Loss: 0.5455 +/- 0.1026
 Training Loss: 0.0231 +/- 0.0218
+Model: Logistic Classification
 Accuracy: 0.4774 +/- 0.0731
 Precision: 0.4434 +/- 0.1357
 Recall: 0.7963 +/- 0.1709
@@ -28,19 +29,7 @@ Recall: 0.7963 +/- 0.1709
 F1: 0.5600 +/- 0.1341
 Validation Loss: 0.5226 +/- 0.0731
 Training Loss: 0.0000 +/- 0.0000
-Accuracy: 0.4568 +/- 0.1499
-Precision: 0.4568 +/- 0.1499
-Recall: 1.0000 +/- 0.0000
-F1: 0.6131 +/- 0.1363
-Validation Loss: 0.5432 +/- 0.1499
-Training Loss: 0.5351 +/- 0.0448
-Model: Logistic Classification with RBF basis with Technical Indicator Features
-Accuracy: 0.4568 +/- 0.1499
-Precision: 0.4568 +/- 0.1499
-Recall: 1.0000 +/- 0.0000
-F1: 0.6131 +/- 0.1363
-Validation Loss: 0.5432 +/- 0.1499
-Training Loss: 0.5351 +/- 0.0448
+Model: Logistic Classification with RBF basis and PCA Features
 Accuracy: 0.4568 +/- 0.1499
 Precision: 0.4568 +/- 0.1499
 Recall: 1.0000 +/- 0.0000
@@ -54,6 +43,7 @@ Recall: 1.0000 +/- 0.0000
 F1: 0.6131 +/- 0.1363
 Validation Loss: 0.5432 +/- 0.1499
 Training Loss: 0.5351 +/- 0.0448
+Model: Neural Network
 Accuracy: 0.7988 +/- 0.1363
 Precision: 0.7422 +/- 0.1446
 Recall: 0.8435 +/- 0.2000
