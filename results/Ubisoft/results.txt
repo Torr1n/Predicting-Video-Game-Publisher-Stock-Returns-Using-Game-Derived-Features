@@ -1,7 +1,7 @@
 
 Company: Ubisoft
 ----------------------------------------
-
+Model: Random Forest
 Accuracy: 0.4743 +/- 0.0298
 Precision: 0.4121 +/- 0.1153
 Recall: 0.4523 +/- 0.1724
@@ -15,6 +15,7 @@ Recall: 0.4523 +/- 0.1724
 F1: 0.4048 +/- 0.1327
 Validation Loss: 0.5257 +/- 0.0298
 Training Loss: 0.0023 +/- 0.0046
+Model: Logistic Classification
 Accuracy: 0.5128 +/- 0.0853
 Precision: 0.3869 +/- 0.2150
 Recall: 0.3900 +/- 0.2650
@@ -28,19 +29,7 @@ Recall: 0.3900 +/- 0.2650
 F1: 0.3821 +/- 0.2268
 Validation Loss: 0.4872 +/- 0.0853
 Training Loss: 0.0164 +/- 0.0117
-Accuracy: 0.4865 +/- 0.1415
-Precision: 0.2697 +/- 0.2310
-Recall: 0.6000 +/- 0.4899
-F1: 0.3688 +/- 0.3090
-Validation Loss: 0.5135 +/- 0.1415
-Training Loss: 0.5141 +/- 0.0444
-Model: Logistic Classification with RBF basis with Technical Indicator Features
-Accuracy: 0.4865 +/- 0.1415
-Precision: 0.2697 +/- 0.2310
-Recall: 0.6000 +/- 0.4899
-F1: 0.3688 +/- 0.3090
-Validation Loss: 0.5135 +/- 0.1415
-Training Loss: 0.5141 +/- 0.0444
+Model: Logistic Classification with RBF basis and PCA Features
 Accuracy: 0.4865 +/- 0.1415
 Precision: 0.2697 +/- 0.2310
 Recall: 0.6000 +/- 0.4899
@@ -54,6 +43,7 @@ Recall: 0.6000 +/- 0.4899
 F1: 0.3688 +/- 0.3090
 Validation Loss: 0.5135 +/- 0.1415
 Training Loss: 0.5141 +/- 0.0444
+Model: Neural Network
 Accuracy: 0.7258 +/- 0.1917
 Precision: 0.6966 +/- 0.2653
 Recall: 0.8718 +/- 0.1593
