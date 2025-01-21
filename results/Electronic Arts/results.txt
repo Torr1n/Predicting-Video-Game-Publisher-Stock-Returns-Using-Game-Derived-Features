@@ -1,7 +1,7 @@
 
 Company: Electronic Arts
 ----------------------------------------
-
+Model: Random Forest
 Accuracy: 0.4207 +/- 0.0734
 Precision: 0.2962 +/- 0.2598
 Recall: 0.2766 +/- 0.3731
@@ -15,6 +15,7 @@ Recall: 0.2766 +/- 0.3731
 F1: 0.2253 +/- 0.2206
 Validation Loss: 0.5793 +/- 0.0734
 Training Loss: 0.0000 +/- 0.0000
+Model: Logistic Classification
 Accuracy: 0.4804 +/- 0.0615
 Precision: 0.5342 +/- 0.0853
 Recall: 0.7020 +/- 0.2496
@@ -28,19 +29,7 @@ Recall: 0.7020 +/- 0.2496
 F1: 0.5724 +/- 0.0600
 Validation Loss: 0.5196 +/- 0.0615
 Training Loss: 0.0101 +/- 0.0202
-Accuracy: 0.5644 +/- 0.0630
-Precision: 0.4490 +/- 0.2331
-Recall: 0.8000 +/- 0.4000
-F1: 0.5731 +/- 0.2911
-Validation Loss: 0.4356 +/- 0.0630
-Training Loss: 0.4917 +/- 0.0299
-Model: Logistic Classification with RBF basis with Technical Indicator Features
-Accuracy: 0.5644 +/- 0.0630
-Precision: 0.4490 +/- 0.2331
-Recall: 0.8000 +/- 0.4000
-F1: 0.5731 +/- 0.2911
-Validation Loss: 0.4356 +/- 0.0630
-Training Loss: 0.4917 +/- 0.0299
+Model: Logistic Classification with RBF basis and PCA Features
 Accuracy: 0.5644 +/- 0.0630
 Precision: 0.4490 +/- 0.2331
 Recall: 0.8000 +/- 0.4000
@@ -54,6 +43,7 @@ Recall: 0.8000 +/- 0.4000
 F1: 0.5731 +/- 0.2911
 Validation Loss: 0.4356 +/- 0.0630
 Training Loss: 0.4917 +/- 0.0299
+Model: Neural Network
 Accuracy: 0.6880 +/- 0.1868
 Precision: 0.8112 +/- 0.1930
 Recall: 0.6791 +/- 0.3505
