@@ -1,0 +1,11 @@
+
+Company: Electronic Arts
+----------------------------------------
+
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.3394
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+Validation Loss: 0.6606
+Training Loss: 0.5475

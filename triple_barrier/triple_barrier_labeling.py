@@ -266,7 +266,7 @@ def get_classification_labels(price_data, earliest_touch_df):
 
 
 def create_weekly_triple_barrier_labels(
-    ticker_symbol, start_date="2023-01-01", end_date="2024-09-08"
+    ticker_symbol, start_date="2023-01-15", end_date="2025-01-07"
 ):
     # apply triple barrier labeling to weekly periods for any exchange
 
@@ -305,4 +305,6 @@ def create_weekly_triple_barrier_labels(
     # generate labels
     earliest_touch_df = get_barrier_hits(price_data_localized, barriers_df)
     labels = get_classification_labels(price_data_localized, earliest_touch_df)
+    print(labels["take_profit"].values)
+    print(labels["stop_loss"].values)
     return labels, price_data_localized

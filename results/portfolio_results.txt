@@ -1,0 +1,13 @@
+Black-Litterman Portfolio Performance Report
+--------------------------------------------------
+
+Publisher Set: BL with Neural Network Views
+Cumulative Return: 1.1389
+Sharpe Ratio: 2.4012
+Maximum Drawdown: -0.0432
+
+Publisher Set: BL Market Equilibrium
+Cumulative Return: 1.2127
+Sharpe Ratio: 2.6981
+Maximum Drawdown: -0.0742
+

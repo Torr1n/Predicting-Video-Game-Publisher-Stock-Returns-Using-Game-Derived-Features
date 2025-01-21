@@ -1,0 +1,10 @@
+
+Company: CD PROJEKT RED
+----------------------------------------
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.5074
+Precision: 0.5074
+Recall: 1.0000
+F1 Score: 0.6732
+Validation Loss: 0.4926
+Training Loss: 0.4845

@@ -1,0 +1,11 @@
+
+Company: SEGA
+----------------------------------------
+
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.6057
+Precision: 0.6057
+Recall: 1.0000
+F1 Score: 0.7545
+Validation Loss: 0.3943
+Training Loss: 0.4640

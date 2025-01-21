@@ -1,0 +1,11 @@
+
+Company: Square Enix
+----------------------------------------
+
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.3574
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+Validation Loss: 0.6426
+Training Loss: 0.4796

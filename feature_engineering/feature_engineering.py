@@ -43,11 +43,6 @@ def generate_publisher_agg_features(games):
         valid_games, all_dates
     )
 
-    # Engagement Measures
-    features["engagement_quality"] = calculate_engagement_quality(
-        valid_games, all_dates
-    )
-
     # Lifecycle Metrics
     features["lifecycle_efficiency"] = calculate_lifecycle_efficiency(
         valid_games, all_dates

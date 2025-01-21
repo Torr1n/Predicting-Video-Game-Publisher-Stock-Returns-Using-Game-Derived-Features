@@ -156,9 +156,7 @@ def merge_features(lagged_features, TI_features):
     return features
 
 
-def prepare_ml_arrays(
-    features_df, labels_df, weights_df, start_date="2023-01-01", end_date="2024-09-08"
-):
+def prepare_ml_arrays(features_df, labels_df, weights_df, start_date, end_date):
     # prepare data for ML by aligning label vector and feature matrix dates
 
     # convert start_date and end_date to timezone-aware timestamps matching labels

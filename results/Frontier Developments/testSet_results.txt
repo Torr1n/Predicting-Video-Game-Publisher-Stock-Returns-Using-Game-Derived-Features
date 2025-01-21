@@ -1,0 +1,11 @@
+
+Company: Frontier Developments
+----------------------------------------
+
+Model: Neural Network with Technical Indicator Features
+Accuracy: 0.7093
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+Validation Loss: 0.2907
+Training Loss: 0.4676

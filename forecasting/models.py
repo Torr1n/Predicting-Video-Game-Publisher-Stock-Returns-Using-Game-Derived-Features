@@ -69,6 +69,17 @@ class NeuralNetWrapper:
             predictions = self._inverse_transform_labels(predictions)
         return predictions.numpy().reshape(-1)
 
+    def predict_proba(self, X):
+        """
+        Generate prediction probabilities using sigmoid activation.
+        """
+        X_tensor = torch.FloatTensor(X)
+        self.model.eval()
+        with torch.no_grad():
+            outputs = self.model(X_tensor)
+            probabilities = torch.sigmoid(outputs)
+        return probabilities.numpy().reshape(-1)
+
 
 class LSTMPredictor(nn.Module):
     """

@@ -29,10 +29,12 @@ class ParallelPublisher:
         self.features = None
         triple_barrier_labels, price_data = create_weekly_triple_barrier_labels(ticker)
         self.OHLC_data = price_data[["Open", "High", "Low", "Close"]]
-        fig = visualize_results(price_data, triple_barrier_labels)
-        plt.show()
+        # fig = visualize_results(price_data, triple_barrier_labels)
+        # plt.show()
         self.labels = triple_barrier_labels["label"]
         self.label_weights = triple_barrier_labels["weight"]
+        self.take_profit_barriers = triple_barrier_labels["take_profit"]
+        self.stop_loss_barriers = triple_barrier_labels["stop_loss"]
 
     def initialize_games(self):
         # load published games using thread pool for API calls
